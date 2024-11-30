@@ -1,0 +1,9 @@
+Steps  to run container
+
+1. cd /{path-to-root-directory}/simple-app-with-docker
+
+2. Create image docker build -t simple-app-with-docker .
+
+3. Run container docker run -p 8080:80 simple-app-with-docker
+
+4. Open in browser http://localhost:8080.
